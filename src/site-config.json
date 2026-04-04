@@ -1,0 +1,540 @@
+{
+  "business": {
+    "name": "Legacy Bath Remodel",
+    "phone": "555-bat-r94",
+    "category": "bath-remodel",
+    "city": "Boston",
+    "state": "MA"
+  },
+  "design": {
+    "preset": {
+      "id": "bath-remodel-heritage-craft",
+      "categoryGroup": "bath-remodel",
+      "name": "Heritage Craft",
+      "recipeFile": "bath-remodel/heritage-craft.astro",
+      "colors": {
+        "primary": "#4A6B7C",
+        "primaryDark": "#2c404a",
+        "primaryLight": "#c0cbd1",
+        "secondary": "#3f5b69",
+        "accent": "#4A6B7C",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#3f5b69",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "bath-remodel/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Elevating Boston Bathrooms",
+      "heroSubline": "Custom bath remodels designed for historic homes and modern lifestyles. Serving Cambridge, Newton, Brookline, and Quincy with precision craftsmanship.",
+      "aboutTitle": "Crafting Timeless Bathrooms",
+      "aboutText": [
+        "Founded in 2012, Legacy Bath Remodel began with a mission to preserve Boston's architectural heritage while updating homes for contemporary living. Our team of local craftsmen understands the unique challenges of working with historic brownstones, triple-deckers, and waterfront properties.",
+        "We approach every project with a balance of historical sensitivity and innovative design. From preserving original tilework in Back Bay homes to installing heated floors for harsh New England winters, we tailor solutions to your space and lifestyle.",
+        "As a proud member of the Greater Boston Home Builders Association, we're committed to sustainable practices that honor our community. We source materials from local suppliers whenever possible and prioritize water-efficient fixtures for our coastal environment."
+      ],
+      "valueProps": [
+        {
+          "title": "Historic Expertise",
+          "description": "Specialized in preserving original features while modernizing functionality in Boston's aging homes."
+        },
+        {
+          "title": "Climate-Adapted",
+          "description": "Solutions designed for freeze-thaw cycles, salt air corrosion, and ice dam prevention."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "Deep understanding of Boston's building codes, neighborhood aesthetics, and material suppliers."
+        },
+        {
+          "title": "Transparent Process",
+          "description": "Clear timelines and communication from initial consultation to final walkthrough."
+        }
+      ],
+      "ctaHeadline": "Begin Your Bath Transformation",
+      "ctaSubline": "Schedule a consultation to discuss how we can bring your vision to life."
+    },
+    "services": [
+      {
+        "slug": "historic-bath-preservation",
+        "name": "Historic Bath Preservation",
+        "shortDescription": "Restoring original charm while adding modern functionality to Boston's vintage bathrooms.",
+        "description": "Boston's historic homes often feature irreplaceable architectural details that deserve careful preservation. Our team specializes in restoring original clawfoot tubs, hex tile flooring, and vintage fixtures while discreetly updating plumbing and electrical systems.\n\nWe carefully document existing conditions before work begins, using reversible installation methods whenever possible. For Back Bay brownstones and South End townhomes, we source reproduction moldings and period-appropriate hardware to maintain architectural integrity. Modern comforts like discreet radiant heating and low-flow plumbing are integrated without compromising historic character.",
+        "process": [
+          "Step 1: Historic assessment and documentation of existing features",
+          "Step 2: Custom solution planning with preservation specialists",
+          "Step 3: Gentle demolition protecting salvageable elements",
+          "Step 4: Installation with reversible techniques and period materials"
+        ],
+        "benefits": [
+          "Preserves your home's architectural value",
+          "Meets local historic district requirements",
+          "Modern functionality hidden in vintage aesthetics",
+          "Specialized craftsmen trained in restoration techniques"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my original 1920s subway tile?",
+            "answer": "Yes, we work with local artisans who recreate historic tile patterns and glaze colors. For extensive projects, we can source original salvaged materials from Boston architectural reclaimers."
+          },
+          {
+            "question": "How do you handle lead paint in old bathrooms?",
+            "answer": "Our team is EPA-certified in lead-safe practices. We contain the work area with plastic barriers and use HEPA vacuums, following all Massachusetts lead abatement protocols."
+          },
+          {
+            "question": "Will a historic remodel take longer than new construction?",
+            "answer": "Typically adding 1-2 weeks for careful demolition and custom fabrication. We build this into our timeline upfront to avoid surprises."
+          }
+        ]
+      },
+      {
+        "slug": "nor-easter-proof-bathrooms",
+        "name": "Nor'easter-Proof Bathrooms",
+        "shortDescription": "Weather-resistant designs that stand up to Boston's harsh winters and coastal moisture.",
+        "description": "New England's freeze-thaw cycles and salty coastal air demand specially engineered bathroom solutions. We install moisture-resistant wall systems behind tiles to prevent mold in humid summers, and use anti-fracture membranes to protect against winter's temperature swings.\n\nFor homes near the harbor, we specify marine-grade hardware that resists salt corrosion. Ice dam prevention starts with proper insulation and venting behind shower walls. Our heated floor systems provide comfort during bitter Cambridge winters while reducing condensation that damages finishes. Every material is tested for durability in our local climate.",
+        "process": [
+          "Step 1: Climate assessment of your home's exposure",
+          "Step 2: Selection of weather-appropriate materials",
+          "Step 3: Installation with moisture barriers and thermal breaks",
+          "Step 4: Final testing of drainage and ventilation systems"
+        ],
+        "benefits": [
+          "Reduces long-term maintenance costs",
+          "Prevents moisture damage and mold",
+          "Marine-grade fixtures for coastal homes",
+          "Energy-efficient winter performance"
+        ],
+        "faq": [
+          {
+            "question": "What flooring works best for snowy winters?",
+            "answer": "Radiant-heated porcelain tile provides warmth while resisting moisture damage from tracked-in snow. We install it with slope for quick drying in mudroom bathrooms."
+          },
+          {
+            "question": "How do you prevent pipes from freezing?",
+            "Answer": "We reroute vulnerable plumbing away from exterior walls when possible, and install frost-proof sillcocks with proper insulation in Newton's coldest neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "brownstone-bath-remodels",
+        "name": "Brownstone Bath Remodels",
+        "shortDescription": "Space-maximizing designs for Back Bay and South End's iconic narrow layouts.",
+        "description": "Boston's historic brownstones present unique spatial challenges with their long, narrow footprints and limited plumbing access. Our designs create the illusion of space through strategic mirror placement, vertical storage, and continuous flooring that visually expands the room.\n\nWe specialize in fitting full amenities into compact footprints - installing corner showers with built-in shelving, pedestal sinks that preserve floor space, and water-saving fixtures that don't sacrifice performance. For garden-level units, we address moisture issues with proper waterproofing before installing finishes. Every design considers the brownstone's original sightlines and proportions to maintain architectural harmony.",
+        "process": [
+          "Step 1: Measuring and 3D modeling of your unique space",
+          "Step 2: Custom storage and fixture solutions",
+          "Step 3: Careful demolition in tight quarters",
+          "Step 4: Installation with attention to original architectural details"
+        ],
+        "benefits": [
+          "Maximizes every square inch",
+          "Maintains historic proportions",
+          "Custom storage solutions",
+          "Preserves original architectural details"
+        ],
+        "faq": [
+          {
+            "question": "Can you add a second bathroom to my brownstone?",
+            "answer": "Yes, we've created powder rooms under staircases and stacked bathrooms by coordinating with structural engineers familiar with Back Bay's building constraints."
+          },
+          {
+            "question": "How do you handle low water pressure in old buildings?",
+            "answer": "We install pressure-boosting systems specifically designed for historic properties, with discreet placement to maintain aesthetics."
+          }
+        ]
+      },
+      {
+        "slug": "universal-design-bathrooms",
+        "name": "Universal Design Bathrooms",
+        "shortDescription": "Accessible designs that blend seamlessly with Boston's historic homes.",
+        "description": "Creating bathrooms that accommodate all life stages requires thoughtful design, especially in Boston's older homes with space constraints. We install barrier-free showers with discreet linear drains, comfort-height toilets with traditional styling, and lever handles that complement vintage aesthetics.\n\nFor Newton's multigenerational households, we design flexible spaces that can adapt over time - installing reinforcement for future grab bars behind beautiful wainscoting, or creating curbless transitions that work with wheelchairs while maintaining elegant finishes. Every solution balances accessibility needs with the architectural integrity of your home.",
+        "process": [
+          "Step 1: Needs assessment and future planning",
+          "Step 2: Space planning for clear floor areas",
+          "Step 3: Installation with hidden structural supports",
+          "Step 4: Testing of all accessibility features"
+        ],
+        "benefits": [
+          "Prepares your home for aging in place",
+          "Discreet accessibility features",
+          "Safe surfaces without institutional look",
+          "Future-ready construction"
+        ],
+        "faq": [
+          {
+            "question": "Can accessible design work in my small Beacon Hill bathroom?",
+            "answer": "Absolutely. We've installed space-saving solutions like wall-hung vanities and pocket doors in some of Boston's most compact historic bathrooms."
+          },
+          {
+            "question": "Do accessible showers look different?",
+            "answer": "Not necessarily. We create beautiful curbless showers with hidden slopes and matching floor tiles throughout for a seamless look."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-primary-suites",
+        "name": "Luxury Primary Suites",
+        "shortDescription": "Spa-inspired retreats for Boston's waterfront condos and Newton estates.",
+        "description": "For Boston's luxury properties, we craft bathroom sanctuaries that rival high-end spas. Our designs incorporate radiant-heated stone floors, steam shower systems with chromatherapy lighting, and custom vanities with integrated refrigeration for skincare products.\n\nIn waterfront condos, we maximize ocean views with strategically placed soaking tubs and frameless glass enclosures. For Newton's larger homes, we create his-and-hers dressing areas with tailored storage. Every detail considers both aesthetics and functionality - from silent-closing drawers to humidity-sensing ventilation that protects your investment.",
+        "process": [
+          "Step 1: Lifestyle assessment and wishlist development",
+          "Step 2: Material selection and technology integration",
+          "Step 3: Precision installation of high-end finishes",
+          "Step 4: Systems programming and owner training"
+        ],
+        "benefits": [
+          "Hotel-quality finishes",
+          "Smart home integration",
+          "Custom storage solutions",
+          "Health-focused features"
+        ],
+        "faq": [
+          {
+            "question": "What luxury features are popular in Boston homes?",
+            "answer": "Our clients love towel warming drawers for cold mornings, and integrated sound systems that withstand bathroom humidity while providing spa ambiance."
+          },
+          {
+            "question": "Can you match my existing high-end finishes?",
+            "answer": "Yes, we have relationships with premium suppliers and can source matching materials from the same quarries or manufacturers."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Historic Bath Preservation",
+        "text": "Legacy transformed our 1890s South End brownstone bathroom while preserving the original clawfoot tub and hex tiles. They sourced perfect matches for missing tiles and discreetly updated all the plumbing. The shower looks like it's always been there - just with modern water pressure!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Nor'easter-Proof Bathrooms",
+        "text": "After our Quincy bathroom flooded during a nor'easter, Legacy rebuilt it with waterproofing that could survive a hurricane. The heated floor makes winter mornings bearable, and the marine-grade fixtures still look perfect after two salty winters.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Brownstone Bath Remodels",
+        "text": "Somehow made our tiny Beacon Hill bathroom feel twice as big. The custom floating vanity provides storage without crowding the space, and the extra-tall showerhead makes the low ceiling less noticeable. They worked around our odd plumbing without compromising design.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Universal Design Bathrooms",
+        "text": "Legacy created an accessible bathroom for my mother that doesn't look institutional. The beautiful wainscoting hides grab bar reinforcements, and the curbless shower is safer but still elegant. They understood exactly how to blend function with our Newton home's traditional style.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Olivia C.",
+        "rating": 5,
+        "service": "Luxury Primary Suites",
+        "text": "Our Seaport condo bathroom is now a legitimate spa. The backlit onyx shower walls and teak flooring create such a serene atmosphere. The team handled all the high-end finishes with care and programmed the smart controls to be actually usable (not just flashy).",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Henry W.",
+        "rating": 5,
+        "service": "Historic Bath Preservation",
+        "text": "Restored our Cambridge Victorian's original mosaic floor that three other contractors said was beyond repair. Their tile specialist spent days carefully cleaning and re-grouting by hand. The shower conversion maintained all the historic charm while adding modern functionality.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boston Bathroom Remodeling | Legacy Bath Remodel",
+        "description": "Specializing in historic home bathroom remodels in Boston, Cambridge, Newton, Brookline, and Quincy. Climate-adapted designs for New England homes."
+      },
+      "about": {
+        "title": "About Our Boston Bath Remodel Company",
+        "description": "Legacy Bath Remodel brings 12 years of experience preserving Boston's architectural heritage while creating functional, beautiful bathrooms."
+      },
+      "services": {
+        "title": "Boston Bathroom Remodeling Services",
+        "description": "From historic preservation to universal design, we offer complete bath remodeling solutions for Greater Boston homes."
+      },
+      "contact": {
+        "title": "Contact Legacy Bath Remodel in Boston",
+        "description": "Schedule your bath remodeling consultation with Boston's trusted bathroom specialists serving Cambridge, Newton, Brookline, and Quincy."
+      },
+      "reviews": {
+        "title": "Boston Bath Remodel Reviews",
+        "description": "See what homeowners say about Legacy Bath Remodel's work on historic brownstones, waterfront condos, and family homes across Boston."
+      },
+      "service-areas": {
+        "title": "Boston Area Bathroom Remodeling",
+        "description": "Serving Cambridge, Newton, Brookline, Quincy with bath remodels designed for New England homes and climate."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Cambridge",
+        "slug": "cambridge-ma",
+        "state": "MA",
+        "content": "Legacy Bath Remodel is proud to serve the historic city of Cambridge, MA, where Victorian homes near Harvard University require specialized care to preserve their charm while modernizing functionality. Our team understands the unique challenges of remodeling bathrooms in older homes, from updating plumbing to matching period-appropriate fixtures. We also account for the harsh New England climate, ensuring your new bathroom can withstand cold, snowy winters and Nor'easters while remaining energy-efficient.",
+        "localContext": "Cambridge is known for its Victorian-era homes and academic atmosphere, with Harvard University and MIT anchoring the city's vibrant culture.",
+        "nearbyAreas": [
+          "Somerville",
+          "Arlington",
+          "Watertown"
+        ]
+      },
+      {
+        "city": "Newton",
+        "slug": "newton-ma",
+        "state": "MA",
+        "content": "In Newton, MA, Legacy Bath Remodel specializes in transforming upscale Colonial and Tudor homes with luxurious, high-end bathroom renovations. Our team respects the architectural integrity of these elegant properties while integrating modern amenities like heated floors and smart showers to combat the cold, snowy winters and Nor'easters. We work closely with Newton homeowners to create timeless designs that enhance both comfort and property value.",
+        "localContext": "Newton is an affluent suburb featuring stately Colonial and Tudor-style homes, known for its excellent schools and quiet, tree-lined neighborhoods.",
+        "nearbyAreas": [
+          "Wellesley",
+          "Waltham",
+          "Needham"
+        ]
+      },
+      {
+        "city": "Brookline",
+        "slug": "brookline-ma",
+        "state": "MA",
+        "content": "Legacy Bath Remodel excels in updating bathrooms in Brookline, MA, where early 20th-century apartment buildings and homes demand careful attention to detail. We specialize in maximizing space in smaller bathrooms while preserving the historic character of these properties. Our weather-resistant materials and insulation upgrades ensure your bathroom stays cozy during the region's cold, snowy winters and Nor'easters.",
+        "localContext": "Brookline is a densely populated town with a mix of early 1900s-1930s apartments and single-family homes, offering a blend of urban and suburban living.",
+        "nearbyAreas": [
+          "Boston",
+          "Brighton",
+          "Jamaica Plain"
+        ]
+      },
+      {
+        "city": "Quincy",
+        "slug": "quincy-ma",
+        "state": "MA",
+        "content": "Legacy Bath Remodel is a trusted name for bathroom renovations in Quincy, MA, where 1950s-60s Cape Cod and Colonial homes benefit from our expertise in mid-century modernization. We help homeowners update outdated layouts while maintaining the classic New England charm of these properties. Our durable, moisture-resistant materials are ideal for Quincy's cold, snowy winters and Nor'easters, ensuring long-lasting beauty and functionality.",
+        "localContext": "Quincy is a coastal city with a mix of mid-century Cape Cod and Colonial homes, offering a suburban feel with easy access to Boston.",
+        "nearbyAreas": [
+          "Braintree",
+          "Weymouth",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Somerville",
+        "slug": "somerville-ma",
+        "state": "MA",
+        "content": "Legacy Bath Remodel serves Somerville, MA, where historic triple-deckers and modern condos alike require innovative bathroom solutions. Our team is skilled at transforming tight spaces into efficient, stylish retreats, perfect for Somerville's dense urban environment. We also prioritize weatherproofing to handle the cold, snowy winters and Nor'easters common in the area.",
+        "localContext": "Somerville is a vibrant, densely populated city known for its eclectic mix of historic homes and modern developments.",
+        "nearbyAreas": [
+          "Cambridge",
+          "Medford",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-ma",
+        "state": "MA",
+        "content": "In Arlington, MA, Legacy Bath Remodel specializes in updating bathrooms in classic New England homes, from early 20th-century Colonials to mid-century ranches. We blend timeless design with modern functionality, ensuring your bathroom can withstand the region's cold, snowy winters and Nor'easters. Our team is committed to enhancing both the beauty and efficiency of Arlington's charming residences.",
+        "localContext": "Arlington is a family-friendly suburb with a mix of historic and mid-century homes, offering a small-town feel near Boston.",
+        "nearbyAreas": [
+          "Lexington",
+          "Belmont",
+          "Cambridge"
+        ]
+      },
+      {
+        "city": "Waltham",
+        "slug": "waltham-ma",
+        "state": "MA",
+        "content": "Legacy Bath Remodel is a top choice for bathroom renovations in Waltham, MA, where historic mill buildings and suburban homes alike benefit from our expertise. We specialize in creating spa-like retreats that balance modern luxury with practical durability for the area's cold, snowy winters and Nor'easters. Our team understands Waltham's unique blend of industrial heritage and residential charm.",
+        "localContext": "Waltham is a diverse city with a mix of historic mill buildings, mid-century homes, and modern developments along the Charles River.",
+        "nearbyAreas": [
+          "Newton",
+          "Watertown",
+          "Lexington"
+        ]
+      },
+      {
+        "city": "Lexington",
+        "slug": "lexington-ma",
+        "state": "MA",
+        "content": "In Lexington, MA, Legacy Bath Remodel transforms bathrooms in historic Colonial and Cape Cod homes with careful attention to detail. We specialize in preserving the character of these iconic properties while adding modern comforts like heated flooring to combat the cold, snowy winters and Nor'easters. Our designs honor Lexington's rich Revolutionary War history while meeting today's lifestyle needs.",
+        "localContext": "Lexington is a historic town known for its well-preserved Colonial homes and its role in the American Revolution.",
+        "nearbyAreas": [
+          "Concord",
+          "Arlington",
+          "Bedford"
+        ]
+      },
+      {
+        "city": "Wellesley",
+        "slug": "wellesley-ma",
+        "state": "MA",
+        "content": "Legacy Bath Remodel delivers luxury bathroom renovations in Wellesley, MA, where upscale estates and traditional New England homes demand the highest quality craftsmanship. We create elegant, functional spaces that complement Wellesley's sophisticated aesthetic while standing up to the region's cold, snowy winters and Nor'easters. Our team understands the importance of discretion and excellence in this prestigious community.",
+        "localContext": "Wellesley is an affluent suburb known for its grand estates, excellent schools, and picturesque New England charm.",
+        "nearbyAreas": [
+          "Newton",
+          "Needham",
+          "Natick"
+        ]
+      },
+      {
+        "city": "Needham",
+        "slug": "needham-ma",
+        "state": "MA",
+        "content": "In Needham, MA, Legacy Bath Remodel specializes in transforming bathrooms in classic Colonial and Tudor homes with modern luxury and functionality. We understand how to enhance these traditional properties while ensuring they can withstand the area's cold, snowy winters and Nor'easters. Our team takes pride in creating spa-like retreats that increase both comfort and home value in this desirable suburb.",
+        "localContext": "Needham is a charming suburb featuring a mix of classic New England architecture and modern luxury homes.",
+        "nearbyAreas": [
+          "Wellesley",
+          "Newton",
+          "Dedham"
+        ]
+      },
+      {
+        "city": "Watertown",
+        "slug": "watertown-ma",
+        "state": "MA",
+        "content": "Legacy Bath Remodel serves Watertown, MA, where historic homes and modern condos alike benefit from our bathroom renovation expertise. We specialize in maximizing space in Watertown's diverse housing stock while creating durable designs that can handle the area's cold, snowy winters and Nor'easters. Our team is skilled at blending contemporary style with the character of Watertown's many architectural eras.",
+        "localContext": "Watertown is a diverse community with a mix of historic homes, mid-century apartments, and modern developments along the Charles River.",
+        "nearbyAreas": [
+          "Belmont",
+          "Cambridge",
+          "Waltham"
+        ]
+      },
+      {
+        "city": "Belmont",
+        "slug": "belmont-ma",
+        "state": "MA",
+        "content": "In Belmont, MA, Legacy Bath Remodel transforms bathrooms in charming Colonial and Victorian homes with careful attention to historical details. We specialize in updating these classic properties with modern amenities while preserving their character and ensuring they can withstand the area's cold, snowy winters and Nor'easters. Our team creates elegant, functional spaces that enhance Belmont's traditional New England charm.",
+        "localContext": "Belmont is a picturesque suburb known for its well-preserved historic homes and excellent school system.",
+        "nearbyAreas": [
+          "Cambridge",
+          "Arlington",
+          "Watertown"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "historic-bath-preservation": "/images/service-historic-bath-preservation.webp",
+      "nor-easter-proof-bathrooms": "/images/service-nor-easter-proof-bathrooms.webp",
+      "universal-design-bathrooms": "/images/service-universal-design-bathrooms.webp",
+      "luxury-primary-suites": "/images/service-luxury-primary-suites.webp",
+      "brownstone-bath-remodels": "/images/service-brownstone-bath-remodels.webp"
+    },
+    "servicesResponsive": {
+      "historic-bath-preservation": {
+        "src": "/images/service-historic-bath-preservation.webp",
+        "srcset": "/images/service-historic-bath-preservation-400w.webp 400w, /images/service-historic-bath-preservation-800w.webp 800w, /images/service-historic-bath-preservation-1200w.webp 1200w, /images/service-historic-bath-preservation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "nor-easter-proof-bathrooms": {
+        "src": "/images/service-nor-easter-proof-bathrooms.webp",
+        "srcset": "/images/service-nor-easter-proof-bathrooms-400w.webp 400w, /images/service-nor-easter-proof-bathrooms-800w.webp 800w, /images/service-nor-easter-proof-bathrooms-1200w.webp 1200w, /images/service-nor-easter-proof-bathrooms.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "universal-design-bathrooms": {
+        "src": "/images/service-universal-design-bathrooms.webp",
+        "srcset": "/images/service-universal-design-bathrooms-400w.webp 400w, /images/service-universal-design-bathrooms-800w.webp 800w, /images/service-universal-design-bathrooms-1200w.webp 1200w, /images/service-universal-design-bathrooms.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-primary-suites": {
+        "src": "/images/service-luxury-primary-suites.webp",
+        "srcset": "/images/service-luxury-primary-suites-400w.webp 400w, /images/service-luxury-primary-suites-800w.webp 800w, /images/service-luxury-primary-suites-1200w.webp 1200w, /images/service-luxury-primary-suites.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "brownstone-bath-remodels": {
+        "src": "/images/service-brownstone-bath-remodels.webp",
+        "srcset": "/images/service-brownstone-bath-remodels-400w.webp 400w, /images/service-brownstone-bath-remodels-800w.webp 800w, /images/service-brownstone-bath-remodels-1200w.webp 1200w, /images/service-brownstone-bath-remodels.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
